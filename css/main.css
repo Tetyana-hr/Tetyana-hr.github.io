@@ -95,7 +95,24 @@ body {
   color: #4e3c48;
   text-shadow: 1px 1px #ebf0e9;
   text-decoration: none;
+  -webkit-animation: pulsate 1.2s linear infinite;
+  animation: pulsate 1.2s linear infinite;
+  transition-property: transform;
+  transition-duration: 0.7s;
+  
+}
 
+@-webkit-keyframes pulsate {
+  50% { color: #4e3c48; text-shadow: 1px 1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #4e3c48; }
+ }
+ @keyframes pulsate {
+  50% { color: #4e3c48; text-shadow: 1px 1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #4e3c48; }
+ }
+
+
+.home-cv:hover{
+ cursor: pointer;
+ transform: scale(1.1); /*збільшення*/
 }
 
 .home-arrow {
