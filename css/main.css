@@ -183,6 +183,10 @@ body {
     margin-bottom: 15px;
 }
 
+.sertificate{
+color: #3c4858;
+}
+
 .about-icons{
 display: flex;
 justify-content: center;
@@ -208,6 +212,7 @@ justify-content: center;
     border: 2px solid black;
     border-radius: 15px;
     background-color: #fefefe;
+    text-decoration: none;
     display: flex; /*вирівнювання тексту*/
     justify-content: center;
     align-items: center;
@@ -223,6 +228,40 @@ justify-content: center;
     opacity: 1; /*прозорість*/
     transform: scale(1.1); /*збільшення*/
 }
+
+.tetris-box{
+  background-image: url(../image/tetris.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fefefe;
+} 
+
+ .CV-box{
+  background-image: url(../image/CV.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #3c4858;
+} 
+
+.lending-box{
+  background-image: url(../image/LP.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #3c4858;
+} 
+
+.test-box{
+  background-image: url(../image/Firsttest.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fefefe;
+}
+
+
 
 #contact {
 }
