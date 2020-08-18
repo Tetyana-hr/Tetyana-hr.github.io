@@ -46,7 +46,8 @@
                  Маю <a href="https://www.sololearn.com/Certificate/1024-18544259/pdf/" class="sertificate">сертифікат</a> по JS та пройшла не великі курси по веброзробці.</p>
             <p>Планую практикувати тестування API та хочеться дуже SQL. Також в планах розібратись з Gitlab CI (Pipeline)</p>
             <p>Моя головна мета - бути крутим тестувальником!</p>
-            <p>Немає межі розвитку і досконалості!</p>
+            <p>Немає межі розвитку і досконалості! </p> 
+            <a href="#quiz" class="sertificate">І на останок міні-вікторина ;)</a>
         <div class="about-icons">
             <i class="fab fa-html5"></i>
             <i class="fab fa-css3-alt"></i>
@@ -102,7 +103,37 @@
 
 
 
+<section class="section" id="quiz">
+    <div class="container d-flex">
+        <!-- <div><a href="#about" class="">about</a></div> -->
+        <div class="contact-info">
+            
+        <form name="myform">
+            
+            <p>Яке моє ім'я?</p><br>
+            <input type="radio" name="q1" value="a"><span>Tanya</span><br>
+            <input type="radio" name="q1" value="b"><span>Tonya</span><br><hr><br>
+        
+            <p>Яке моє прізвище?</p><br>
+            <input type="radio" name="q2" value="a"><span>Grivas</span><br>
+            <input type="radio" name="q2" value="b"><span>Hryvas</span><br><hr><br>
+
+            <p>Хто я за професією?</p><br>
+            <input type="radio" name="q3" value="a"><span>QA Automation engineer</span><br>
+            <input type="radio" name="q3" value="b"><span>QA engineer</span><br><br>
+            <input type="button" value="Answer" onclick="check()">
+
+        </form>
+        </div>
+        <div><p id="result">Result:</p></div>
+    </div>
+</section>
+
+
+
+
         <script src="./js/jquery-3.5.1.min.js"></script>
     <script src="./js/main.js"></script>
+    <script src="./js/quiz.js"></script>
 </body>
 </html>
